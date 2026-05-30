@@ -6,7 +6,7 @@ All repositories for the yshop / ice-polar ecosystem.
 
 | Repository | Platform | URL | Branch |
 |-----------|----------|-----|--------|
-| `yshop-drink` | Gitee | `https://gitee.com/icepolar/yshop-drink.git` | `V2` |
+| `yshop-drink` | Gitee | `https://gitee.com/icepolar/yshop-drink.git` | `master` |
 | `yshop-drink-vue` | Gitee | `https://gitee.com/icepolar/yshop-drink-vue.git` | `master` |
 | `icepolarminiapp` | Gitee | `https://gitee.com/icepolar/icepolarminiapp.git` | `main` |
 | `ice-polar-governance` | GitHub | `https://github.com/maydaygjw/ice-polar-governance.git` | `main` |
@@ -21,7 +21,7 @@ BASE_DIR="${1:-.}"
 mkdir -p "$BASE_DIR"
 cd "$BASE_DIR"
 
-git clone -b V2     https://gitee.com/icepolar/yshop-drink.git
+git clone -b master https://gitee.com/icepolar/yshop-drink.git
 git clone -b master https://gitee.com/icepolar/yshop-drink-vue.git
 git clone -b main   https://gitee.com/icepolar/icepolarminiapp.git
 git clone -b main   https://github.com/maydaygjw/ice-polar-governance.git
